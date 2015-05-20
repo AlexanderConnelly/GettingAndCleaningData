@@ -7,6 +7,6 @@ This script is designed to read in the data from the Human Activity Recognition 
 ##Codebook.md:
 This codebook contains the relevant transformations from the raw data in the Human Activity Recognition Using Smartphones Data Set, variables used set by step transformations, and the relevent information on the data set itself.
 
-##tidyDataset:
+##tidyDataset.txt:
 This is the result of the run_analysis.R after all transformations are applied. Note the do conform to the principles of tidy data outlined in this course.
 
