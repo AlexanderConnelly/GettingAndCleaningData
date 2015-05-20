@@ -1,17 +1,18 @@
-This analysis takes data from the Human Activity Recognition Using Smartphones Dataset.
+This analysis takes data from the 
+#Human Activity Recognition Using Smartphones Dataset.
 
 The documentation that describes the data used is followed below:
 
-Variables:
+##Variables:
 In this analysis, all variables used were all the calculated means and standard deviations for all subjects in the study.
 
-Transformations:
+##Transformations:
 -Data was taken from this data set and then only the information on Mean and Standard deviation was used.
 -Data was then transformed into its means of means and standard deviations by grouping the data by Subject number, and activity name.
 -activity number was replaced with discriptive activity names
 -Data columns reorganized to reflect tidy dataset principles. 
 
-The step by step transformations are as follows:
+##The step by step transformations are as follows:
 1. Merged the training and the test sets to create one data set.
 2. Extracted only the measurements on the mean and standard deviation for each measurement. 
 3. Used descriptive activity names to name the activities in the data set
