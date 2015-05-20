@@ -6,6 +6,27 @@ The documentation that describes the data used is followed below:
 ##Variables:
 In this analysis, all variables used were all the calculated means and standard deviations for all subjects in the study.
 
+The output tidyDataset.txt has the variables for the means and standard deviations that were recorded during the study. This dataset is the means of the groupings of every activity and subject seperatly.
+
+##Description of Variables:
+tBodyAcc-XYZ - averaging the signals in a signal window sample, Columns for  Mean and STD respectivly
+tGravityAcc-XYZ - calculation corrected for gravity used the accelerometer to collect this value
+tBodyAccJerk-XYZ - the body linear acceleration and angular velocity were derived in time to obtain Jerk signals, Columns for  Mean and STD respectivly
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ - used the gyroscope the body linear acceleration and angular velocity were derived in time to obtain Jerk signals, Columns for  Mean and STD respectivly
+tBodyAccJerkMag - the body linear acceleration and angular velocity were derived in time to obtain Jerk signals, Columns for  Mean and STD respectivly
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag -used the accelerometer
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+Gyro=Measurement Calculated from Gyroscope,
+Acc= Measuremetn calculated from Accelerometer
+Jerk = the body linear acceleration and angular velocity were derived in time to obtain Jerk signals,
+
 ##Transformations:
 IMPORTANT!
 Before starting run_analysis, the txt files were converted into .csv files in order to make the data loading process easier,
