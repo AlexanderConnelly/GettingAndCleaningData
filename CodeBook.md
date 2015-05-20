@@ -7,6 +7,9 @@ The documentation that describes the data used is followed below:
 In this analysis, all variables used were all the calculated means and standard deviations for all subjects in the study.
 
 ##Transformations:
+IMPORTANT!
+Before starting run_analysis, the txt files were converted into .csv files in order to make the data loading process easier,
+to replicate this process, simply convert the txt from a fixed width file format into a csv before running run_analysis.R!
 -Data was taken from this data set and then only the information on Mean and Standard deviation was used.
 -Data was then transformed into its means of means and standard deviations by grouping the data by Subject number, and activity name.
 -activity number was replaced with discriptive activity names
